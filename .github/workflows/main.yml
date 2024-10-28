@@ -1,8 +1,9 @@
 name: End project CICD / gh actions
-on:
-  push:
-    branches:
-    - master
+#on:
+#  push:
+#    branches:
+#    - master
+on: workflow_call
 jobs:
   deploy:
     runs-on: ubuntu-latest
